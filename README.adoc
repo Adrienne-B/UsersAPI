@@ -242,3 +242,40 @@ The following guides may also be helpful:
 * https://spring.io/guides/gs/serving-web-content/[Serving Web Content with Spring MVC]
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/footer.adoc[]
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# UsersAPI
+ The API will be used to interact with users of a sample application
+
+## Summary
+ simple API to test the concepts from the lesson. The API will be used to interact with users of a sample application
+
+### Software used:
+Eclipse(java) 
+
+### What I learn:
+I learned that you can access the current location from anywhere using API.
+
+#### Challenges to improve on:
+N/A
+
+#### Random Unexpected Challenges:
+1. We had the issue with setting up the SQL server. I had to download sql to access data for some reason.
+
+2. All files were erased from the UsersAPI package.
+
+3. Updated version wouldnt appear on Postman/bug
+
+#### Solutions/solving the issue:
+1. I had to download mysql server and then the mysql workbench. Then I had to set up the database and the table.
+I had to establish the connection b/w mysql and spring boot.
+
+2. I had to import the Maven project for spirng boot, which was in my local.
+
+3. I used the wrong identity for the wrong generationtype (AUTO) user model. But once I used the correct generation type (Identity).
+
+#### Weakness so far:
+1.	I am still learning Java (beginner).
+
